@@ -26,6 +26,7 @@ import matplotlib.animation as animation
 import pandas as pd
 import six
 
+import argparse
 
 class LinearRegression(object):
     def __init__(self, data, scale):
